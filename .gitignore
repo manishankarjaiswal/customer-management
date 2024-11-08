@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django migrations
+**/migrations/
+
+# Environment variables
+# .env
+
+# macOS
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database files
+*.sqlite3
+
+# Django static and media files
+# staticfiles/
+# media/
+
+# Local settings
+local_settings.py
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# Bandit security analysis
+.bandit/
+
+# Celery
+celerybeat-schedule
+
+# IDEs
+.idea/
+*.iml
+
+# Logs and temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pid
+*.out
+*.err
+*.swp
+*.swo
