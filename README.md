@@ -112,35 +112,8 @@ docker-compose down
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture-diagram.png)  <!-- Include a diagram illustrating the flow between client, Django views, models, and database -->
+![Architecture Diagram](CustomerMang.png)  <!-- Include a diagram illustrating the flow between client, Django views, models, and database -->
 
-+---------------------------------------+
-|               Browser                 |
-|     (User interacts via templates)    |
-+---------------------------------------+
-                    |
-                    |
-                    v
-+-----------------------------------------------------------+
-|                  Django Application Layer                 |
-|                                                           |
-|   +----------------------+           +-----------------+   |
-|   |  Django Templates    |<--------->|     API Layer   |   |
-|   |  (Frontend)          |           | (REST Framework)|   |
-|   +----------------------+           +-----------------+   |
-|                                                           |
-|                    +-----------------------+              |
-|                    |   Business Logic      |              |
-|                    +-----------------------+              |
-|                                                           |
-+-----------------------------------------------------------+
-                    |
-                    |
-                    v
-+-----------------------------------------------------------+
-|                     Database Layer                        |
-|    (SQLite, PostgreSQL, etc.)                             |
-+-----------------------------------------------------------+
 
 
 ## Assumptions and Decisions
