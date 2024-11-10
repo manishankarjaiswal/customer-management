@@ -46,6 +46,12 @@ This Django project is a single-page application designed to manage customer dat
     python manage.py migrate
     ```
 
+   if error is ```no such table: mainapi_customer```
+    ```bash    
+    python manage.py makemigrations mainapi
+    python manage.py migrate
+    ```
+
 4. Run the development server:
     ```bash
     python manage.py runserver
