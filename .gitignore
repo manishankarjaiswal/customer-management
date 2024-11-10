@@ -59,7 +59,7 @@ celerybeat-schedule
 *.iml
 
 # Logs and temp files
-*.log
+# *.log
 *.pot
 *.pyc
 *.pyo

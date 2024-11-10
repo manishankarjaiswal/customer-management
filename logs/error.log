@@ -1,0 +1,4 @@
+WARNING 2024-11-10 09:36:24,816 django.request Thread-7 140624812570304 log log.py 241 django.request log_response 8 Not Found: /favicon.ico
+WARNING 2024-11-10 09:36:24,816 django.server Thread-7 140624812570304 basehttp basehttp.py 212 django.server log_message 8 "GET /favicon.ico HTTP/1.1" 404 2918
+WARNING 2024-11-10 09:36:24,888 django.request Thread-3 140625190442688 log log.py 241 django.request log_response 8 Unauthorized: /api/1/customer/fetch
+WARNING 2024-11-10 09:36:24,889 django.server Thread-3 140625190442688 basehttp basehttp.py 212 django.server log_message 8 "GET /api/1/customer/fetch?page=1 HTTP/1.1" 401 183
